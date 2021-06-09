@@ -258,6 +258,27 @@ h3{
     text-decoration: none;
 }
 
+.proposal__item{
+    position: relative;
+}
+.proposal__text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(182, 121, 121) ; 
+    padding-bottom:0;
+    padding-right: 50px;
+    padding-top: 0;
+    
+   
+}
+.info{
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+    top: 0;
+}
 /* /SLIDER/ */
 .slider{
     position: relative;
@@ -338,14 +359,7 @@ h3{
     padding: 147px 142px 44px 40px;
     /* margin-left: 160px; */
 }
-.slider .slick-arrow{
-    position: absolute;
-    top: 90%;
-    z-index: 10;
-    font-size: 0;
-    width: 30px;
-    height: 50px;
-}
+
 /* button{
    
 } */
