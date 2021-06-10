@@ -7,7 +7,7 @@ $(document).ready(function(){
      slidesToScroll:1,
      speed:500,
      easing:'ease',
-     autoplay:true,
+     autoplay:false,
      prevArrow: $('.slick-btn-prev'),
      nextArrow: $('.slick-btn-next'),
      autoplaySpeed:1000,
