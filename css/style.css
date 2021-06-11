@@ -11,11 +11,7 @@ body{
     margin: 0;  
     width: 100%;
 }
-.wrapper{
-    width: 940px;
-    margin: 50px auto;
-    height: 100%;
-}
+
 .container{
     max-width: 1200px;
     transition: all .3s ease;
@@ -207,27 +203,13 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 120px;
-    margin-left: -90px;
-   
-}
+    margin-top: 110px;
+    margin-left: 0;
+   }
 .guid__image{
     width: 50%;
     
 }
-/* .guid__text{
-  
-    font-size: 15px;
-    line-height: 150%;
-    color: rgb(138, 138, 138);
-   margin-right: 30px ;
-   font-family: 'Mulish', sans-serif;
-    
-}
-.guid__title{
-    font-size: 36px;
-     margin: 50px 50px;
-} */
 .btn2{
     margin: 58px 93px;
 }
@@ -535,44 +517,106 @@ margin-bottom: 28px;
 .proposal{
     background-image: url('../images/two.png');
     background-repeat: no-repeat;
-    /* min-width: 100px; */
-    padding-bottom: 100px;
-    margin: auto;
+    /* padding-bottom: 100px; */
+    margin: 80px;
 }
 .guid{
     background-image: url('../images/three.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto ;
+    margin:95px;
 }
 .review{
     background-image: url('../images/four.png');
     background-repeat: no-repeat;
     background-position: center left ;
-    padding-bottom: 108px;
+    /* padding-bottom: 108px; */
     margin: auto;
+    margin: 70px;
 
 }
 .offer{
     background-image: url('../images/five.png');
     background-repeat: no-repeat;
     background-size: auto 90%;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    margin: 90px;
 
   }
 .hero{
     background-image: url('../images/five.png');
     background-repeat: no-repeat;
-    background-position: center left ;
-    padding-bottom: 108px;
-    
+    background-position: bottom left ;
+    margin-top: 70px;
+    margin-left: 120px;
+
 }
 
-/* @media screen and (max-width: 768px){
-.wrapper{
-    width: 450px;
+@media screen and (max-width: 768px){
+.container{
+    max-width: 738px;
+}
+.menu{
+min-height: 40px;
+margin-left: 10%;
+margin-right: 10%;
+}
+.offer{
+    min-height: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.body{
+    min-height: 400px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.guid{
+    min-height: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+margin-right: 10%;
+}
+.slider{
+    min-height: 100px;
+    margin-top: 3%;
+    margin-left: 10%;
+margin-right: 10%;
+}
+.proposal{
+    min-height: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+margin-right: 10%;
 }
 .footer{
-    height: 45px;
+    min-height: 100px;
+    margin-top: 3%;
 }
-} */
+.header{
+    min-width: 100px;
+    margin-top: 3%;
+    margin-left: 10%;
+margin-right: 10%;
+
+}
+.cards{
+     min-height: 10px;
+     margin-left: 10%;
+     margin-right: 10%;
+}
+.explore{
+    min-width: 40px;
+    margin-top: 3%;
+    margin-left: 10%;
+margin-right: 10%;
+}
+.exsplore__image{
+    min-height: 10px;
+    margin-left: 10%;
+margin-right: 10%;
+}
+}
