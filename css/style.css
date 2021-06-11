@@ -5,9 +5,16 @@
     transition: all .3s ease;
 
 }
+
 body{
   padding: 0;
     margin: 0;  
+    width: 100%;
+}
+.wrapper{
+    width: 940px;
+    margin: 50px auto;
+    height: 100%;
 }
 .container{
     max-width: 1200px;
@@ -143,6 +150,11 @@ h4{
    
     display: flex;
     flex-direction: row;
+    background-image: url('../images/one.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto; 
+    margin: 100px 0 ; 
 }
 .explore__content{
     width: 50%;
@@ -187,6 +199,7 @@ h2{
  .guid__wrap{
     display: flex;
     flex-direction: row;
+    
 }
 .guid__content{
     width: 50%;
@@ -194,6 +207,8 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 120px;
+    margin-left: -90px;
    
 }
 .guid__image{
@@ -510,35 +525,54 @@ margin-bottom: 28px;
 .cards__item{
         width: 24%;
 }
-.explore{
+/* .explore{
     background-image: url('../images/one.png');
     background-repeat: no-repeat;
-}
+    background-position: center top;
+    background-size: contain; 
+    margin: 100px 0 ; 
+} */
 .proposal{
     background-image: url('../images/two.png');
     background-repeat: no-repeat;
-    min-width: 100px;
+    /* min-width: 100px; */
+    padding-bottom: 100px;
+    margin: auto;
 }
 .guid{
     background-image: url('../images/three.png');
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto ;
 }
 .review{
     background-image: url('../images/four.png');
     background-repeat: no-repeat;
+    background-position: center left ;
+    padding-bottom: 108px;
+    margin: auto;
+
 }
 .offer{
     background-image: url('../images/five.png');
     background-repeat: no-repeat;
+    background-size: auto 90%;
+    padding-top: 100px;
+
   }
-  @media screen and (max-width: 800px){
-    .menu__list{
-        flex-direction: column;
-    }
-    .hero__wrap {
-        flex-direction: column;
-    }
-    .hero:nth-of-type(2) .hero__image{
-        order:-1;
-    }
+.hero{
+    background-image: url('../images/five.png');
+    background-repeat: no-repeat;
+    background-position: center left ;
+    padding-bottom: 108px;
+    
+}
+
+@media screen and (max-width: 768px){
+.wrapper{
+    width: 450px;
+}
+.footer{
+    height: 45px;
+}
 }
