@@ -568,11 +568,11 @@ margin-bottom: 28px;
     
 }
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
 .wrapper{
     width: 450px;
 }
 .footer{
     height: 45px;
 }
-}
+} */
